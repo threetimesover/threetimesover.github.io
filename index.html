@@ -15,12 +15,14 @@ color: #504740;
 .main {
 background:#f7f5f0;
 position:relative;
+height:85vh;
 margin: 2%;
 padding-bottom:60px;
 border-radius: 25px;
 text-align:center;
 animation: fade 2s;
 opacity:0.95;
+overflow:auto; 
 }
 
 @keyframes fade {
@@ -36,13 +38,16 @@ color:#607790;
 font-stretch:semi-condensed;
 word-spacing:0.1em;
 clear:both;
-padding: 2.8em 0.1em 0 0.1em;
+padding: 15vh 0.1em 0 0.1em;
 }
 
 p {padding: 1.8em 2em 0em 2em;}
 a {color:#B06040;}
 p em {color:#A79070;}
 .narrower {padding-top:0.6em;}
+
+@media (max-height:700px)
+{.main {height:70vh; margin:4% 2.5% 2% 2.5%;}}
 
 </style></head>
 
@@ -55,7 +60,7 @@ p em {color:#A79070;}
 
 <p />In the meantime, get yo fix here:
 
-<p class="narrower">✏: <a href="http://happypants3.deviantart.com">dA</a>
+  <p class="narrower">✏: <a href="http://happypants3.deviantart.com"><b>dA</b></a>
 <br />✉: <b>hello@jazzscenes</b> <em>(enquiries, curiosities, bouquets, brickbats)</em> | <b>work@jazzscenes</b> <em>(professional)</em></a></p>
 
 <p />&#9733;
